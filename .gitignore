@@ -23,4 +23,7 @@ build
 !.yarn/sdks
 !.yarn/versions
 
-.medusa
+# ignore alles behalve server build
+.medusa/*
+!.medusa/server
+!.medusa/server/**
